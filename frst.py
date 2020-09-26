@@ -1,0 +1,1 @@
+print("Hello Fake","Dragon","DIM",10,3,sep="+") #seprate the value
