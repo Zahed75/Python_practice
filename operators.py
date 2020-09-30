@@ -88,25 +88,37 @@
 
 
 
-x = ["apple", "banana"]
-y = ["apple", "banana"]
-z = x
+# x = ["apple", "banana"]
+# y = ["apple", "banana"]
+# z = x
 
 
-print(x is z)
+# print(x is z)
 
-print(x is y) # akhne false howar karon its not a same object in value comparison not same element
+# print(x is y) # akhne false howar karon its not a same object in value comparison not same element
 
-print(x == y)  # to demonstrate the difference betweeen "is" and "==": this comparison returns True because x is equal to y
-
-
-n = ["apple","banana","orange"]
-o =["apple","banana","orange"]
-p =n
+# print(x == y)  # to demonstrate the difference betweeen "is" and "==": this comparison returns True because x is equal to y
 
 
-print(n is not p)
+# n = ["apple","banana","orange"]
+# o =["apple","banana","orange"]
+# p =n
 
-print( n is not o)
 
-print(n != p)
+# print(n is not p)
+
+# print( n is not o)
+
+# print(n != p)
+
+
+#Memberships Operator
+
+x=["banana","sugercane"]
+
+print("banana" in x)
+
+
+x = ["orange","pancake"]
+
+print("lion" is not x)
