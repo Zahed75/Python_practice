@@ -51,14 +51,62 @@
 # Python Comparison Operators
 # Comparison operators are used to compare two values:
 
-X=5
-Y=3
+# X=5
+# Y=3
 
-print(X==Y)
+# print(X==Y)
 
-x = 5
-y = 3
+# x = 5
+# y = 3
 
-print(x != y)
+# print(x != y)
 
 # returns True because 5 is not equal to 3
+
+
+# x= 4
+# y=56
+
+# n=x>y
+# print(n)
+
+
+# A=4
+
+# B=5
+
+# print(A>B and B<A)
+
+
+# N= 4
+
+# print(3<N or 2<N)
+
+# x =4
+
+# print((x>3 and x<10))
+
+
+
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+
+print(x is z)
+
+print(x is y) # akhne false howar karon its not a same object in value comparison not same element
+
+print(x == y)  # to demonstrate the difference betweeen "is" and "==": this comparison returns True because x is equal to y
+
+
+n = ["apple","banana","orange"]
+o =["apple","banana","orange"]
+p =n
+
+
+print(n is not p)
+
+print( n is not o)
+
+print(n != p)
