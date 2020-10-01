@@ -133,25 +133,54 @@ print(list3)
 # how to add list iteam using append function
 
 list2 = ["A", "B", "C", "D", "E"]
-list4 = ["1","2","4","5"]
+list4 = ["1", "2", "4", "5"]
 for x in list4:
     list2.append(x)
 print(list2)
 
+# how to extend two list
 
-#how to extend two list
-
-name = ["zahed","abdul","satyam","mitul"]
-l_name = ["hasan","baset","talkudar","hasan"]
+name = ["zahed", "abdul", "satyam", "mitul"]
+l_name = ["hasan", "baset", "talkudar", "hasan"]
 
 name.extend(l_name)
 print(name)
 
-#how to add first list iteam sequenitally second list iteam using append func
+# how to add first list iteam sequenitally second list iteam using append func
 a = ['zahed', 'shuvro', 'ratul']
 b = ['hasan', 'baset', 'anik']
 c = []
 for i in range(len(a)):
-    temp = a[i] + " " +  b[i]
+    temp = a[i] + " " + b[i]
     c.append(temp)
 print(c)
+
+# extend method
+fn = ["abb", "bdfg", "cbdfg"]
+db = ["2", "3", "5"]
+
+fn.extend(db)
+print(fn)
+
+# practice sequentially add two list iteam
+
+first_name = ["Zahed", "sabbir", "abdul"]
+last_name = ["hasan", "mehedi", "baset"]
+full_name = []
+
+for x in range(len(first_name)):
+    hand = first_name[x] + " " + last_name[x]
+    full_name.append(hand)
+print(full_name)
+
+
+#tuple iteam conver to list
+
+drinks = list(("pepsi","coke","marinda","fizzup"))
+
+print(drinks)
+
+a = (1,2,3)
+b = list(a)
+print(b)
+
