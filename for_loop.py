@@ -23,6 +23,20 @@ for zahed in range(50, 0, -1):
     if zahed % 2 == 1:
         print(zahed)
 
-if 9<8:
+if 9 < 8:
     print("false")
 
+student = ["Mitul", "Fatema", "Thushi", "Zara", "Zerin", "Bal"]
+
+for x in student:
+    print(x)
+
+for i in student:
+    print(i)
+    if i == "Mitul":
+        print("----Fatema")
+        print("----Thusi")
+
+    if i == "Zara":
+        print("----Zerin")
+        print("--------Bal")

@@ -49,7 +49,7 @@ fvrt_mam = {
 }
 
 for x in fvrt_mam:
-    print(fvrt_mam)
+    print(x)
 
 # print key value
 car = {
